@@ -59,12 +59,7 @@ class ResultPage2 extends StatelessWidget {
                             nidCon.nid.value =
                                 nidCon.recognizedList[index + 1].lines![0].text;
                             log(nidCon.nid.value);
-                          } else {
-                            // RegExp regExp = RegExp(r'^\d{9,20}$');
-                            // nidCon.nid.value = regExp.stringMatch(data)!;
-                            // log(nidCon.nid.value);
-
-                          }
+                          } else {}
 
                           return Center(
                             child: ListTile(
